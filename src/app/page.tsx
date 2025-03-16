@@ -1,10 +1,13 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/common/Header';
+import Footer from './components/common/Footer';
+
 
 export default function Home() {
   return (
     <div>
-      hi
+      <Header/>
+      <Footer/>
     </div>
   );
 }
