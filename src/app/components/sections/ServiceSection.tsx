@@ -1,6 +1,7 @@
 "use client";
 
 import { Code, Smartphone, ShoppingCart, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const servicesData = [
   { icon: <Code size={32} />, title: "Web Development", description: "Custom web solutions with modern technologies.", link: "/services/web-development" },
@@ -27,9 +28,9 @@ const ServiceSection = () => {
                   <h4>{service.title}</h4>
                   <p>{service.description}</p>
                   <div className="button-wrap">
-                    <a href={service.link}>
-                      Learn More <ArrowRight className="ms-2" size={16} />
-                    </a>
+                    <Link href={service.link} className="flex items-center gap-2 text-blue-600 hover:underline">
+                      Learn More <ArrowRight size={16} />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -37,9 +38,9 @@ const ServiceSection = () => {
           ))}
         </div>
         <div className="button-wrap mt-4 text-center">
-          <a href="/services" className="BtnMain">
+          <Link href="/services" className="BtnMain">
             View All Services
-          </a>
+          </Link>
         </div>
       </div>
     </section>
