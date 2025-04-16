@@ -25,21 +25,21 @@ const FormSc = () => {
                 imgSrc={<FaPhoneAlt size={20} />}
                 altText="Phone Icon"
                 label="Call Us"
-                linkText="+1-76269 77694"
-                linkHref="tel:+17626977694"
+                linkText="+91 88168 10512"
+                linkHref="tel:+918816810512"
               />
               <ContactCard
                 imgSrc={<IoMdMail size={20} />}
                 altText="Email Icon"
                 label="Email Us"
-                linkText="example12321@gmail.com"
-                linkHref="mailto:example12321@gmail.com"
+                linkText="shirestech@yopmail.com"
+                linkHref="mailto:shirestech@yopmail.com"
               />
               <ContactCard
                 imgSrc={<TiLocation size={20} />}
                 altText="Location Icon"
                 label="Our Location"
-                linkText="2nd Floor, F-426, St. Sebastian Road Industrial Area, California, USA"
+                linkText="Chandigarh, India"
                 linkHref={null}
               />
             </motion.div>
