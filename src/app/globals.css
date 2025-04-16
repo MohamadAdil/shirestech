@@ -384,7 +384,12 @@ form textarea:focus {
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
-
+.industries-card-item p{
+  text-align: center;
+  font: 400 14px / 1.6 var(--font-family-p2);
+  letter-spacing: 0;
+  color: #666;
+}
 .industries-card-img {
   width: 70px;
   height: 70px;

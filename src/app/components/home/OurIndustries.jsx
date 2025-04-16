@@ -71,6 +71,7 @@ const OurIndustries = () => {
                     />
                   </div>
                   <h4>{item.title}</h4>
+                  <p>{item.description}</p>
                 </div>
               </motion.div>
             ))}
