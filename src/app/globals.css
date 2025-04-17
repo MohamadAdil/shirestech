@@ -1085,3 +1085,42 @@ form textarea:focus {
 .ReportCardWrap .ArticleCardCn p {
   display: none;
 }
+.SectionSc {
+  padding: 80px 0;
+}
+
+.RevCardWrap .RevCard {
+  margin: 0 0 60px;
+}
+.RevCardWrap .row{
+  align-items: center;
+}
+.RevCardWrap .RevCard:last-child {
+  margin: 0;
+}
+
+.RevText h2 {
+  font: 600 42px/1.2 var(--font-family-p1);
+  text-transform: capitalize;
+  color: #0D0D0D;
+  margin: 0 0 16px;
+}
+
+.RevText p {
+  font: 400 16px/1.6 var(--font-family-p2);
+  color: #545454;
+  margin: 0 0 16px;
+}
+
+.RevText p:last-child {
+  margin: 0;
+}
+
+.RevImg img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 613 / 352;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
