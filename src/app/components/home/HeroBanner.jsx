@@ -23,10 +23,10 @@ export default function HeroBanner() {
           viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <h1>Transforming Ideas into Digital Solutions</h1>
-          <p>At Shires Tech, we combine innovation, creativity, and technology to bring your business vision to life. From website development to digital marketing, our services are designed to help you grow in the digital world.</p>
+          <h1>Create Breathtaking Websites & Boost Your Business with Shires Tech</h1>
+          <p>Professional web design, UI/UX, SEO, and digital marketing services customized to your objectives.</p>
           <div className="button-wrap">
-            <Link href="/contact-us" className="btn-main">Get Started Today</Link>
+            <Link href="/contact-us" className="btn-main">Request a Free Consultation</Link>
           </div>
         </motion.div>
 

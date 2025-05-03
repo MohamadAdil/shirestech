@@ -8,23 +8,23 @@ import { FaAudioDescription } from 'react-icons/fa';
 const OurIndustries = () => {
   const industries = [
     {
-      title: 'Innovative Solutions',
-      description:'Cutting-edge technology to bring your ideas to life.',
+      title: 'Cutting Edge Solutions',
+      description:'We leverage the newest technologies and innovative approaches to bring your ideas to life in a form of strong digital experiences.',
       img: '/images/industries-img/img-1.png',
     },
     {
-      title: 'Expert Team',
-      description:'Skilled professionals dedicated to your success.',
+      title: 'Professional Team',
+      description:'Our professional team includes experienced web designers, developers, and marketers who are dedicated to providing results and going above your expectations.',
       img: '/images/industries-img/img-2.png',
     },
     {
-      title: 'Tailored Approach',
-      description:'Custom solutions designed for your unique needs.',
+      title: 'Personalized Approach',
+      description:'We dont work on a cookie-cutter basis. Each project is built based on your objectives, brand image, and target audience.',
       img: '/images/industries-img/img-3.png',
     },
     {
-      title: 'Proven Results',
-      description:' Delivering measurable growth and success for our clients.',
+      title: 'Successful Record',
+      description:'From startups to enterprises, we’ve helped businesses grow with measurable improvements in traffic, engagement, and conversions.',
       img: '/images/industries-img/img-4.png',
     },
   ];
@@ -45,8 +45,8 @@ const OurIndustries = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: false }}
         >
-          <span className="hd-border-line center">Why Choose Shires Tech?</span>
-          <h2>Your Trusted Partner in Digital Growth</h2>
+          <span className="hd-border-line center">Why Shires Tech?</span>
+          <h2>Your Digital Growth Partner</h2>
         </motion.div>
 
         <div className="industries-card-wrap">

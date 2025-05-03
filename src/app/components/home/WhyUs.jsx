@@ -23,9 +23,9 @@ const WhyUs = () => {
           viewport={{ once: false }}
         >
           <div className="hd-box">What We Offer</div>
-          <h2>Powerful Services That Drive Results</h2>
+          <h2>Effective Digital Services That Get Real Results</h2>
           <p>
-          We help businesses grow through smart design, development, and marketing strategies.
+          At Shires Tech, we put together clever design, up-to-date development, and results-based marketing to make businesses succeed online.
           </p>
         </motion.div>
 
@@ -35,18 +35,18 @@ const WhyUs = () => {
               {
                 title: 'Web Development',
                 img: '/images/whyus-card-img/img-1.png',
-                desc: 'Build modern, responsive websites tailored to your brand.From simple landing pages to complex platforms — we do it all.',
+                desc: 'Personalized Sites That Do the Job for You. We design quick, secure, and mobile-responsive websites customized to your business objectives. From simple landing pages to complex web applications, our development team makes sure your site runs smoothly on every device.',
               },
               
               {
                 title: 'Digital Marketing',
                 img: '/images/whyus-card-img/img-2.png',
-                desc: 'Reach your audience and boost engagement. SEO, social media, and targeted campaigns that convert.',
+                desc: 'Reach the Right Audience, Get Real Results. We develop and manage effective digital campaigns—including SEO, Google Ads, PPC, social media marketing, and content branding—that drive traffic and conversions.',
               },
               {
                 title: 'UI/UX Design',
                 img: '/images/whyus-card-img/img-3.png',
-                desc: 'Crafting seamless and intuitive user experiences. Designs that not only look good but feel good to use.',
+                desc: 'User-Centered Design That Inspires Action. We create intuitive interfaces and compelling user experiences through a design process that includes wireframes, high-fidelity mockups, responsive UI for web and mobile, and continuous user testing.',
               },
             ].map((item, index) => (
               <motion.div
