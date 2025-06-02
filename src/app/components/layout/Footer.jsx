@@ -71,7 +71,7 @@ export default function Footer() {
                 <div>
                   <h6>Email Us:</h6>
                   <Link href="mailto:shirestech@yopmail.com">
-                    shirestech@yopmail.com
+                    shiresorg@gmail.com
                   </Link>
                 </div>
               </div>
