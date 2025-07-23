@@ -52,7 +52,7 @@ export default function Footer() {
             <div className="contact-us">
               <h5>Contact Us</h5>
 
-              <div className="contact-item">
+              {/* <div className="contact-item">
                 <div className="contact-icon">
                   <FaPhoneAlt size={20} />
                 </div>
@@ -62,7 +62,7 @@ export default function Footer() {
                     +91 88168 10512
                   </Link>
                 </div>
-              </div>
+              </div> */}
 
               <div className="contact-item">
                 <div className="contact-icon">
