@@ -70,7 +70,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <h6>Email Us:</h6>
-                  <Link href="mailto:shirestech@yopmail.com">
+                  <Link href="mailto:shiresorg@gmail.com">
                     shiresorg@gmail.com
                   </Link>
                 </div>

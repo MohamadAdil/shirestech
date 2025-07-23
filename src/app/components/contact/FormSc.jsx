@@ -32,8 +32,8 @@ const FormSc = () => {
                 imgSrc={<IoMdMail size={20} />}
                 altText="Email Icon"
                 label="Email Us"
-                linkText="shirestech@yopmail.com"
-                linkHref="mailto:shirestech@yopmail.com"
+                linkText="shiresorg@gmail.com"
+                linkHref="mailto:shiresorg@gmail.com"
               />
               <ContactCard
                 imgSrc={<TiLocation size={20} />}
