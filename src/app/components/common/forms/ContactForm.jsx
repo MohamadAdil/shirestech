@@ -9,6 +9,7 @@ const ContactForm = () => {
     contact: '',
     message: '',
   });
+
   const [status, setStatus] = useState('');
 
   const handleChange = (e) => {
@@ -17,19 +18,21 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus('Sending...');
 
-    const res = await fetch('/api/contact', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+    const res = await fetch("https://formspree.io/f/xeozalqa", {
+      method: "POST",
+      headers: {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify(formData),
     });
 
     if (res.ok) {
-      setStatus('✅ Message sent successfully!');
-      setFormData({ name: '', email: '', contact: '', message: '' });
+      setStatus("✅ Message sent successfully!");
+      setFormData({ name: "", email: "", contact: "", message: "" });
     } else {
-      setStatus('❌ Failed to send message.');
+      setStatus("❌ Failed to send message.");
     }
   };
 
@@ -38,23 +41,55 @@ const ContactForm = () => {
       <div className="row">
         <div className="col-md-12 mb-3">
           <label htmlFor="name" className="form-label">Name</label>
-          <input type="text" className="form-control" id="name" value={formData.name} onChange={handleChange} required />
+          <input
+            type="text"
+            className="form-control"
+            id="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
         </div>
+
         <div className="col-md-12 mb-3">
           <label htmlFor="email" className="form-label">Email Address</label>
-          <input type="email" className="form-control" id="email" value={formData.email} onChange={handleChange} required />
+          <input
+            type="email"
+            className="form-control"
+            id="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
         </div>
+
         <div className="col-md-12 mb-3">
           <label htmlFor="contact" className="form-label">Contact Number</label>
-          <input type="tel" className="form-control" id="contact" value={formData.contact} onChange={handleChange} />
+          <input
+            type="tel"
+            className="form-control"
+            id="contact"
+            value={formData.contact}
+            onChange={handleChange}
+          />
         </div>
+
         <div className="col-md-12 mb-3">
           <label htmlFor="message" className="form-label">Message</label>
-          <textarea className="form-control" id="message" rows="5" value={formData.message} onChange={handleChange} required />
+          <textarea
+            className="form-control"
+            id="message"
+            rows="5"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          />
         </div>
+
         <div className="col-md-12">
           <button type="submit" className="btn-main">Send Us Message</button>
         </div>
+
         {status && <p className="mt-3">{status}</p>}
       </div>
     </form>
