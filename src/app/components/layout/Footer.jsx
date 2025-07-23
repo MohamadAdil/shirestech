@@ -29,13 +29,13 @@ export default function Footer() {
               Shires Tech is your go-to partner for web development, digital marketing, and design solutions. We’re committed to helping businesses grow through innovative and reliable tech services. Let’s build your digital future together.
               </p>
               <div className="social-icon">
-                <Link href="https://www.facebook.com" target="_blank">
+                <Link href="https://www.facebook.com/people/shires-Tech/61578275053203" target="_blank">
                   <FaFacebook size={24} />
                 </Link>
-                <Link href="https://www.instagram.com" target="_blank">
+                <Link href="https://www.instagram.com/shirestech" target="_blank">
                   <AiFillInstagram size={24} />
                 </Link>
-                <Link href="https://www.linkedin.com" target="_blank">
+                <Link href="https://www.linkedin.com/company/shires-tech/" target="_blank">
                   <FaLinkedin size={24} />
                 </Link>
               </div>
