@@ -22,6 +22,9 @@ export const metadata = {
   name: {
     "google-adsense-account": "ca-pub-1056250846133969",
   },
+    name: {
+    "google-site-verification": "oPLJoy0PjRWXwTGDBKN6TFRSkdsNSglqLBlNYpuXoCg",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -29,6 +32,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <head>
         <meta name="google-adsense-account" content="ca-pub-1056250846133969" />
+        <meta name="google-site-verification" content="oPLJoy0PjRWXwTGDBKN6TFRSkdsNSglqLBlNYpuXoCg" />
       </head>
       <body>
         <Header />
