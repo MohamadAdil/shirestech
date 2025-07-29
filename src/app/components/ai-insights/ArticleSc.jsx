@@ -5,6 +5,13 @@ import { motion } from 'framer-motion';  // Import motion from framer-motion
 import ArticleCard from './ArticleCard';
 
 const ArticleSc = () => {
+  function slugify(text) {
+    return text
+      .toLowerCase()
+      .replace(/\s+/g, '-')     // replace spaces with hyphens
+      .replace(/[^\w-]+/g, ''); // remove all non-word characters except hyphen
+  }
+
   const articles = [
     {
       imageSrc: '/images/ai-insights/articles/img-1.png',
@@ -13,7 +20,7 @@ const ArticleSc = () => {
       author: 'Aarav Khanna',
       title: 'How Custom Websites Are Shaping Modern Brands',
       description: 'Discover why businesses are moving towards custom web development to create stronger digital identities.',
-      link: '/blog/custom-websites-for-brands',
+      link: `/our-work/${slugify('How Custom Websites Are Shaping Modern Brands')}`,
     },
     {
       imageSrc: '/images/ai-insights/articles/img-2.png',
@@ -22,7 +29,7 @@ const ArticleSc = () => {
       author: 'Meera Jain',
       title: '5 UX Trends That Will Define 2025',
       description: 'Explore the latest trends in UI/UX design and how they are reshaping user behavior and product interaction.',
-      link: '/blog/ux-trends-2025',
+      link: `/our-work/${slugify('5 UX Trends That Will Define 2025')}`,
     },
     {
       imageSrc: '/images/ai-insights/articles/img-3.png',
@@ -31,7 +38,7 @@ const ArticleSc = () => {
       author: 'Raj Singh',
       title: 'Boost Your SEO with These Proven Strategies',
       description: 'Simple yet powerful SEO strategies every business should implement to increase online visibility.',
-      link: '/blog/seo-strategies-2025',
+      link: `/our-work/${slugify('Boost Your SEO with These Proven Strategies')}`,
     },
     {
       imageSrc: '/images/ai-insights/articles/img-4.png',
@@ -40,7 +47,7 @@ const ArticleSc = () => {
       author: 'Simran Kaur',
       title: 'The Role of AI in Next-Gen Web Applications',
       description: 'A deep dive into how artificial intelligence is driving innovation in modern web app development.',
-      link: '/blog/ai-in-web-apps',
+      link: `/our-work/${slugify('The Role of AI in Next-Gen Web Applications')}`,
     },
   ];
 

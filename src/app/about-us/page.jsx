@@ -3,6 +3,11 @@
 import { motion } from 'framer-motion';
 import ArticleSc from "../components/ai-insights/ArticleSc";
 import InnerHero from "../components/common/sections/InnerHero";
+import Image from 'next/image';
+import GrowTogether from "../components/home/GrowTogether";
+import OurTestimonials from "../components/home/OurTestimonials";
+import WhyUs from "../components/home/WhyUs";
+import SectionSc from "../components/services/SectionSc";
 
 export default function AboutUs() {
   return (
@@ -21,9 +26,12 @@ export default function AboutUs() {
           imageAlt="AI Technology"
         />
       </motion.div>
+      {/*  */}
+      <SectionSc />
+      <WhyUs />
+      <OurTestimonials />
+      <GrowTogether />
 
-      {/* ArticleSc is outside the motion.div */}
-      <ArticleSc />
     </div>
   );
 }
