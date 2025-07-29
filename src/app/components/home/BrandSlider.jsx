@@ -5,16 +5,15 @@ import { Autoplay } from 'swiper/modules';
 import Image from 'next/image';
 import 'swiper/css';
 const images = [
-  '/images/brand-img/img-7.png',
+  '/images/brand-img/img-1.png',
   '/images/brand-img/img-2.png',
   '/images/brand-img/img-3.png',
   '/images/brand-img/img-4.png',
   '/images/brand-img/img-5.png',
   '/images/brand-img/img-6.png',
   '/images/brand-img/img-7.png',
-  '/images/brand-img/img-2.png',
-  '/images/brand-img/img-2.png',
-  '/images/brand-img/img-4.png',
+  '/images/brand-img/img-8.png',
+  '/images/brand-img/img-9.png',
 ];
 
 const BrandSlider = () => {
@@ -51,12 +50,12 @@ const BrandSlider = () => {
         >
           {images.map((src, index) => (
             <SwiperSlide key={index}>
-              <Image 
-                src={src} 
-                alt={`Brand ${index}`} 
-                width={374} 
-                height={251} 
-                style={{ objectFit: 'cover', borderRadius: '20px' }} 
+              <Image
+                src={src}
+                alt={`Brand ${index}`}
+                width={374}
+                height={251}
+                style={{ objectFit: 'cover', borderRadius: '20px' }}
               />
             </SwiperSlide>
           ))}

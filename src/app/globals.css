@@ -233,7 +233,7 @@ ol {
 
 .swiper-slide img {
   aspect-ratio: 126/42;
-  object-fit: contain;
+  object-fit: contain !important;
   width: 100%;
   height: auto;
   object-position: center;
