@@ -21,13 +21,13 @@ const FormSc = () => {
               viewport={{ once: false, amount: 0.2 }} // Ensures animation is triggered every time it's in view
               className='CnCardWrap'
             >
-              {/* <ContactCard
+              <ContactCard
                 imgSrc={<FaPhoneAlt size={20} />}
                 altText="Phone Icon"
                 label="Call Us"
                 linkText="+91 88168 10512"
                 linkHref="tel:+918816810512"
-              /> */}
+              />
               <ContactCard
                 imgSrc={<IoMdMail size={20} />}
                 altText="Email Icon"
