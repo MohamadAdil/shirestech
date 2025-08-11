@@ -30,7 +30,7 @@ export default function HeroBanner() {
           </div>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           className="review-wrap"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -45,7 +45,7 @@ export default function HeroBanner() {
             <GiRoundStar size={20} />
           </div>
           <p>4.9/5 From 3,602 Customers</p>
-        </motion.div>
+        </motion.div> */}
 
         <motion.div
           initial={{ opacity: 0 }}
